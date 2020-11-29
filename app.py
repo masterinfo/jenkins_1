@@ -7,6 +7,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World! vive github'
 
+@app.route('/wil')
+def hello_world():
+    return 'Hello World! vive github de wilfrid'
+
 
 if __name__ == '__main__':
     app.run()
