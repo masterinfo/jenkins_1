@@ -22,5 +22,10 @@ def hello_world3():
 def hello_world32():
     return 'Hello World!  qui declenche jenkins depui github3'
 
+
+@app.route('/git5')
+def hello_world325():
+    return 'Hello World!  qui declenche jenkins depui github3'
+
 if __name__ == '__main__':
     app.run()
