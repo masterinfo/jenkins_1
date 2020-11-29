@@ -8,7 +8,6 @@ def hello_world():
     return 'Hello World! vive github'
 
 
-# bonjour
 @app.route('/wil')
 def hello_world2():
     return 'Hello World! vive github de wilfrid'
