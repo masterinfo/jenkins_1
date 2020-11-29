@@ -7,10 +7,14 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World! vive github'
 
+
+# bonjour
 @app.route('/wil')
 def hello_world2():
     return 'Hello World! vive github de wilfrid'
 
+
+#bonjour
 
 @app.route('/git')
 def hello_world3():
