@@ -8,7 +8,9 @@ def hello_world():
     return 'Hello World! vive github'
 
 
-
+@app.route('/gpizza')
+def hello_world3():
+    return 'Hello World!  qui declenche jenkins depui github pizza'
 
 @app.route('/git')
 def hello_world3():
