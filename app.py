@@ -13,6 +13,11 @@ def hello_world3():
     return 'Hello World!  qui declenche jenkins depui github'
 
 
+@app.route('/gpizza45f')
+def hello_world45f():
+    return 'Hello World!  qui declenche jenkins depui github pizza'
+
+
 @app.route('/gpizza45')
 def hello_world45():
     return 'Hello World!  qui declenche jenkins depui github pizza'
