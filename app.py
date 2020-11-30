@@ -12,10 +12,6 @@ def hello_world():
 def hello_world3():
     return 'Hello World!  qui declenche jenkins depui github'
 
-@app.route('/git')
-def hello_world3():
-    return 'Hello World!  qui declenche jenkins depui github'
-
 
 if __name__ == '__main__':
     app.run()
