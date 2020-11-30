@@ -17,5 +17,11 @@ def hello_world3():
     return 'Hello World!  qui declenche jenkins depui github'
 
 
+@app.route('/gpizza')
+def hello_world3():
+    return 'Hello World!  qui declenche jenkins depui github pizza'
+
+
+
 if __name__ == '__main__':
     app.run()
